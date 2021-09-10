@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "编辑地址",
+  "usingComponents": {
+    "cc-field": "/node-modules/cc-ui-uni-app/components/cc-field/cc-field",
+    "cc-switch": "/node-modules/cc-ui-uni-app/components/cc-switch/cc-switch",
+    "cc-button": "/node-modules/cc-ui-uni-app/components/cc-button/cc-button",
+    "cc-address-edit": "/node-modules/cc-ui-uni-app/components/cc-address-edit/cc-address-edit",
+    "cc-mask": "/node-modules/cc-ui-uni-app/components/cc-mask/cc-mask",
+    "cc-area": "/node-modules/cc-ui-uni-app/components/cc-area/cc-area"
+  }
+}

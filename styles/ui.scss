@@ -1,0 +1,76 @@
+.about-side{
+	.cc-sidebar{
+		margin: 0;
+		width: 120rpx;
+	}
+	.cc-sidebar-item{
+		padding: 12px!important;
+	}
+}
+/* #ifdef MP-WEIXIN */
+.cc-swiper-item-img-content{
+	border-radius: 20rpx;
+}
+/* #endif */
+.s-img{
+	width: 40rpx;
+	height: 40rpx;
+}
+.l-img{
+	width: 80rpx;
+	height: 80rpx;
+}
+.xl-img{
+	width: 120rpx;
+	height: 120rpx;
+}
+.m-img{
+	width: 60rpx;
+	height: 60rpx;
+}
+.text-color{
+	color: #FF750D;
+}
+
+.bor-t{
+	border-top:1rpx solid #f5f5f5 ;
+}
+/* #ifdef MP-WEIXIN */
+.cc-field{
+	width: 80vw !important;
+}
+/* #endif */
+.login{
+  .cc-button-primary{
+   border-radius: 40rpx !important;
+    width: 85vw !important;
+}
+}
+
+.rebtn{
+	.cc-button-primary{
+	   border-radius: 40rpx !important;
+	    width: 85vw !important;
+	}
+}
+// 多选框
+.uni-checkbox-input-checked{
+	background-color: #FF750D !important;
+	    
+	    color: #FF750D !important;
+}
+.uni-checkbox-input{
+	border:#FF750D solid 1rpx !important ;
+	border-radius: 50% !important;
+}
+.cc-address-list{
+	padding-bottom: 150rpx;
+}
+
+// 支付键盘
+.cc-number-keyboard-wrap-content-item-key{
+	svg{
+		width: 40rpx;
+		height: 40rpx;
+	}
+}

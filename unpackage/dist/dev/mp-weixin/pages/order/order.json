@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "确认订单",
+  "usingComponents": {
+    "cc-coupon-cell": "/node-modules/cc-ui-uni-app/components/cc-coupon-cell/cc-coupon-cell",
+    "cc-popup": "/node-modules/cc-ui-uni-app/components/cc-popup/cc-popup",
+    "cc-coupon-list": "/node-modules/cc-ui-uni-app/components/cc-coupon-list/cc-coupon-list",
+    "cc-button": "/node-modules/cc-ui-uni-app/components/cc-button/cc-button",
+    "cc-password-input": "/node-modules/cc-ui-uni-app/components/cc-password-input/cc-password-input",
+    "order-list": "/components/order/orderList"
+  }
+}

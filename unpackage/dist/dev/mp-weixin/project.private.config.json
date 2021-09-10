@@ -1,0 +1,108 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/login/login",
+          "pathName": "pages/login/login",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/index/index",
+          "pathName": "pages/index/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/details/details",
+          "pathName": "pages/details/details",
+          "query": "id=612c7d908a0ec50660127f84",
+          "scene": null
+        },
+        {
+          "name": "pages/seach/seachView",
+          "pathName": "pages/seach/seachView",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/my/my",
+          "pathName": "pages/my/my",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/login/login",
+          "pathName": "pages/login/login",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/register/register",
+          "pathName": "pages/register/register",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/details/details",
+          "pathName": "pages/details/details",
+          "query": "id=612ef78c8a0ec5066012a38d",
+          "scene": null
+        },
+        {
+          "name": "pages/car/car",
+          "pathName": "pages/car/car",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/order/order",
+          "pathName": "pages/order/order",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/address/edit",
+          "pathName": "pages/address/edit",
+          "query": "adress=undefined",
+          "scene": null
+        },
+        {
+          "name": "pages/my/evaluate/evaluate",
+          "pathName": "pages/my/evaluate/evaluate",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/myMap/wxMap/map",
+          "pathName": "pages/myMap/wxMap/map",
+          "query": "area_id=71&area_name=%E9%98%BF%E6%8B%89%E5%96%84%E7%9B%9F",
+          "scene": null
+        },
+        {
+          "name": "pages/customerService/customerService",
+          "pathName": "pages/customerService/customerService",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/myMap/wxMap/xmap",
+          "pathName": "pages/myMap/wxMap/xmap",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "cc-checkbox": "/node-modules/cc-ui-uni-app/components/cc-checkbox/cc-checkbox",
+    "cc-button": "/node-modules/cc-ui-uni-app/components/cc-button/cc-button",
+    "cc-stepper": "/node-modules/cc-ui-uni-app/components/cc-stepper/cc-stepper",
+    "cc-toast": "/node-modules/cc-ui-uni-app/components/cc-toast/cc-toast",
+    "cc-dialog": "/node-modules/cc-ui-uni-app/components/cc-dialog/cc-dialog"
+  },
+  "component": true
+}

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "全部订单",
+  "usingComponents": {
+    "cc-tabs": "/node-modules/cc-ui-uni-app/components/cc-tabs/cc-tabs",
+    "cc-dialog": "/node-modules/cc-ui-uni-app/components/cc-dialog/cc-dialog"
+  }
+}

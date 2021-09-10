@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "cc-swiper": "/node-modules/cc-ui-uni-app/components/cc-swiper/cc-swiper"
+  },
+  "component": true
+}

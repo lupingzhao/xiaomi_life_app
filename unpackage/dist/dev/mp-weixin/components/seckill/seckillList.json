@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "cc-progress": "/node-modules/cc-ui-uni-app/components/cc-progress/cc-progress",
+    "cc-tag": "/node-modules/cc-ui-uni-app/components/cc-tag/cc-tag"
+  }
+}

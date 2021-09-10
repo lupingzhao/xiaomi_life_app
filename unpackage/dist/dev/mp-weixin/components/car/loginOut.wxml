@@ -1,0 +1,1 @@
+<view class="data-v-a3d0048a"><view class="t-a-c p-10 bgc-low-gray data-v-a3d0048a" style="height:300rpx;"><view class="m-tb-25 data-v-a3d0048a">暂未登录</view><view data-event-opts="{{[['tap',[['go',['$event']]]]]}}" bindtap="__e" class="data-v-a3d0048a">登录获取更多优惠 ></view></view></view>

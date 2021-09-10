@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "注册",
+  "usingComponents": {
+    "cc-button": "/node-modules/cc-ui-uni-app/components/cc-button/cc-button",
+    "cc-checkbox": "/node-modules/cc-ui-uni-app/components/cc-checkbox/cc-checkbox",
+    "cc-action-sheet": "/node-modules/cc-ui-uni-app/components/cc-action-sheet/cc-action-sheet"
+  }
+}

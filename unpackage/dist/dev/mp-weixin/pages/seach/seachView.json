@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "小米Lite",
+  "usingComponents": {
+    "cc-nav-bar": "/node-modules/cc-ui-uni-app/components/cc-nav-bar/cc-nav-bar",
+    "cc-field": "/node-modules/cc-ui-uni-app/components/cc-field/cc-field",
+    "seach-content": "/components/seachview/seachContent"
+  }
+}

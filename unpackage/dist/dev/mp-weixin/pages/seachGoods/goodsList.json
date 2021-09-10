@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "小米Lite",
+  "usingComponents": {
+    "cc-sticky": "/node-modules/cc-ui-uni-app/components/cc-sticky/cc-sticky",
+    "cc-nav-bar": "/node-modules/cc-ui-uni-app/components/cc-nav-bar/cc-nav-bar",
+    "cc-field": "/node-modules/cc-ui-uni-app/components/cc-field/cc-field",
+    "cc-popup": "/node-modules/cc-ui-uni-app/components/cc-popup/cc-popup",
+    "recommend-list": "/components/recommentGood/recommendList",
+    "goods-list": "/components/seachGoods/goodsList"
+  }
+}

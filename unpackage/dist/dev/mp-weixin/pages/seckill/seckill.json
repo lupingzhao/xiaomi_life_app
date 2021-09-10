@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "小米秒杀",
+  "usingComponents": {
+    "cc-toast": "/node-modules/cc-ui-uni-app/components/cc-toast/cc-toast",
+    "seck-list": "/components/seckill/seckillList"
+  }
+}

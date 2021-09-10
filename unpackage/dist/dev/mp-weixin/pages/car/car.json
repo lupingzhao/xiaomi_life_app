@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "购物车",
+  "usingComponents": {
+    "login-out": "/components/car/loginOut",
+    "recommend-list": "/components/recommentGood/recommendList",
+    "car-login": "/components/car/carLogin",
+    "checkedlist": "/components/car/checked"
+  }
+}

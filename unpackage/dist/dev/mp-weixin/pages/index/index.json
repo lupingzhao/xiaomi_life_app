@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "首页",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "cc-sticky": "/node-modules/cc-ui-uni-app/components/cc-sticky/cc-sticky",
+    "cc-notice-bar": "/node-modules/cc-ui-uni-app/components/cc-notice-bar/cc-notice-bar",
+    "index-head": "/components/index/indexHead",
+    "wxbanner": "/components/index/wx-index/banner",
+    "hot": "/components/index/hot/hot",
+    "re-goods": "/components/index/reGoods/reGoods"
+  }
+}

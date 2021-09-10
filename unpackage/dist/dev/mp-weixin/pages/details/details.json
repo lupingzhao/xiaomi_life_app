@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "详情",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "goodsinfo": "/components/details/goodsinfo",
+    "details-footer": "/components/details/detailsFooter/detailsFooter",
+    "goods-cell": "/components/details/goodsCell/goodsCell",
+    "comment": "/components/details/detailsComment/comment",
+    "re-good": "/components/recommentGood/reGood",
+    "details-spec": "/components/details/detailsSpec/detailsSpec",
+    "add-good-car": "/components/details/detailsPopup/addGoodCar"
+  }
+}

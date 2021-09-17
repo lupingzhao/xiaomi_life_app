@@ -148,7 +148,9 @@ export default {
 								msg: '定位成功',
 								data
 							})
-							// console.log(data)
+							uni.showToast({
+								title:'定位成功'
+							})
 						}
 
 						function onError(data) {
@@ -157,6 +159,9 @@ export default {
 								code: 500,
 								msg: '定位失败',
 								data
+							})
+							uni.showToast({
+								title:'定位失败'
 							})
 						}
 					})

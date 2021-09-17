@@ -128,13 +128,12 @@
 		},
 		onLoad(e) {
 			this.pos = JSON.parse(e.pos)
-			this.info = JSON.parse(e.info)
-			
-			
+			this.info = JSON.parse(e.info)			
 			// 创建地图
 			// #ifdef H5
 			this.$utils.getLocation(this.pos, e.name).then(res => {
 				this.nowpos = res.data.position
+				console.log(this.nowpos);
 			}).catch(err => {
 				this.err = true
 			})
@@ -158,12 +157,8 @@
 					padding: 6,
 					textAlign: 'center',
 				}
-
 			}]
-
 			// #endif
-
-
 		},
 		onShow() {
 

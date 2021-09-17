@@ -103,7 +103,10 @@
 							url: `../address/address?boo=${0}`
 						})
 					}else if(e===1){
-						console.log(e);
+					uni.showToast({
+						title:'暂未开发此功能',
+						icon:'none'
+					})
 					}
 				}			
 			},

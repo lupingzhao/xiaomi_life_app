@@ -102,6 +102,16 @@
 					// "navigationStyle": "custom"
 				}
 			}
+		},	{
+			"path": "pages/myMap/mapdemo",
+			"style": {
+				"navigationBarTitleText": "地图线路规划测试",
+				// "navigationStyle": "custom",
+				"h5": {
+					// "titleNView": false,
+					// "navigationStyle": "custom"
+				}
+			}
 		},
 		{
 			"path": "pages/my/evaluate/evaluate",

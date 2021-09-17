@@ -17,8 +17,8 @@
 				<view class="mb-10 bor-b p-b-10">
 					距离出口收费站距离还有：{{route.tolls_distance/1000}}公里
 				</view>
-				
-				<view >
+
+				<view>
 					<view v-for="(item,index) in route.steps" :key="index" class="p-10 font-s-14">
 						{{item.action}}: &nbsp;{{item.instruction}}
 					</view>
@@ -67,35 +67,42 @@
 								zoom: 13 //地图显示的缩放级别
 							});
 
-							let content =
-								`<div class='box-map t-a-c p-10 b-radius-10' style='font-size: 12px;width: 200px;background-color: #FFFFFF;margin-left: -72px; margin-top: -63px;'><img src='${LngLat.icon}' class='xl-img' /><div class='box-map'>${name}</div></div>`
+							// let content =
+							// 	`<div class='box-map t-a-c p-10 b-radius-10' style='font-size: 12px;width: 200px;background-color: #FFFFFF;margin-left: -72px; margin-top: -63px;'><img src='${LngLat.icon}' class='xl-img' /><div class='box-map'>${name}</div></div>`
 
-							// 创建一个 Marker 实例： 多个标价循环创建
+							// // 创建一个 Marker 实例： 多个标价循环创建
 
-							let marker = new AMap.Marker({
-								position: new AMap.LngLat(Number(LngLat.lng), Number(LngLat
-									.lat)), // 经纬度对象，也可以是经纬度构成的一维数组[116.39, 39.9]
-								content: content
-							});
-							// 将创建的点标记添加到已有的地图实例：
-							this.map.add(marker);
+							// let marker = new AMap.Marker({
+							// 	position: new AMap.LngLat(Number(LngLat.lng), Number(LngLat
+							// 		.lat)), // 经纬度对象，也可以是经纬度构成的一维数组[116.39, 39.9]
+							// 	content: content
+							// });
+							// // 将创建的点标记添加到已有的地图实例：
+							// this.map.add(marker);
 
-
-							this.map.plugin('AMap.Driving', function() {
-								var driving = new AMap.Driving({
-									// 驾车路线规划策略，AMap.DrivingPolicy.LEAST_TIME是最快捷模式
-									policy: AMap.DrivingPolicy.LEAST_TIME
-								})
-								var startLngLat = [now.lng, now.lat]
-								var endLngLat = [LngLat.lng, LngLat.lat]
+							// 线路规划  this.map.plugin 先引入插件 多个插件择写成数组
+							this.map.plugin('AMap.Driving')
 
 
-								driving.search(startLngLat, endLngLat, function(status, result) {
-									_this.route = result.routes[0]
-									// 未出错时，result即是对应的路线规划方案
-								})
+							var driving = new AMap.Driving({
+								// 驾车路线规划策略，AMap.DrivingPolicy.LEAST_TIME是最快捷模式
+								policy: AMap.DrivingPolicy.LEAST_TIME,
+								// 装在地图线路的容器
+								map: this.map
 							})
-
+							var startLngLat = [now.lng, now.lat]
+							var endLngLat = [LngLat.lng, LngLat.lat]
+							driving.search(startLngLat, endLngLat, function(status, result) {
+								// 未出错时，result即是对应的路线规划方案
+								if (status === 'complete') {
+									_this.route = result.routes[0]
+								} else {
+								uni.showToast({
+									title:'获取驾车数据失败',
+									icon:'none'
+								})
+								}
+							})
 						})
 						.catch(e => {
 							console.log(e)

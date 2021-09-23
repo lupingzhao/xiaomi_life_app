@@ -1,7 +1,7 @@
 <template>
 	<view class="">
 		<view class="button-box b bgc-white p-10" @click.stop>
-			<scroll-view scroll-y="true">
+			<scroll-view scroll-y="true" style="height: 62vh;">
 				<view class="width-100">
 					<view class="width-100">
 						<view class="p-5 t-a-r ">
@@ -28,7 +28,7 @@
 											<text class="jgf" v-if="index<speccheck.length-1">x</text>
 										</text>
 									</view>
-									
+
 								</view>
 							</view>
 						</view>
@@ -59,26 +59,24 @@
 				</view>
 			</scroll-view>
 
-
-			<view class="flex jcc" v-if="istype==='select'">
-				<view class="flex jcc  width-90">
-					<view class="car flex-1 " @click="addcar">
-						加入购物车
-					</view>
-					<view class="buy flex-1 " @click="tobuy">
-						立即购买
+			<view class="bgc-low-gray">
+				<view class="flex jcc" v-if="istype==='select'">
+					<view class="flex jcc  width-90">
+						<view class="car flex-1 " @click="addcar">
+							加入购物车
+						</view>
+						<view class="buy flex-1 " @click="tobuy">
+							立即购买
+						</view>
 					</view>
 				</view>
-
-			</view>
-			<view class="flex" v-else>
-				<view class="car1 " @click="addcar">
-					确定
+				<view class="flex" v-else>
+					<view class="car1 " @click="addcar">
+						确定
+					</view>
 				</view>
-
 			</view>
 		</view>
-
 	</view>
 
 </template>
@@ -136,7 +134,8 @@
 			// 加入购物车
 			addcar() {
 				if (this.istype !== 'buy') {
-					this.addCart({add: {
+					this.addCart({
+						add: {
 							// 用户id
 							user_id: uni.getStorageSync('liftUser')._id,
 							// 购物车数量
@@ -146,7 +145,8 @@
 							// 商品规格
 							spec: this.speccheck
 						},
-						update: uni.getStorageSync('liftUser')._id})		
+						update: uni.getStorageSync('liftUser')._id
+					})
 				} else {
 					this.tobuy()
 				}

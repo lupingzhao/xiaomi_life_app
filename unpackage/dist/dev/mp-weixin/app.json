@@ -9,6 +9,7 @@
     "pages/myMap/mapLine/mapLine",
     "pages/my/cityList/cityList",
     "pages/address/address",
+    "pages/myMap/mapdemo",
     "pages/my/evaluate/evaluate",
     "pages/seckill/seckill",
     "pages/allOrder/all",

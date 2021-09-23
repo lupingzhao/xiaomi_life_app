@@ -1,6 +1,6 @@
 {
-  "component": true,
   "usingComponents": {
     "cc-tabs": "/node-modules/cc-ui-uni-app/components/cc-tabs/cc-tabs"
-  }
+  },
+  "component": true
 }

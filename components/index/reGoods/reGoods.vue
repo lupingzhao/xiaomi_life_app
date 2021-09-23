@@ -95,7 +95,6 @@
 							<view class="width-100" @click.stop='butn(index)'>
 								<cc-button round :customStyle="{'margin': '15rpx 0','width': '100%'}">已购买</cc-button>
 							</view>
-
 						</view>
 					</view>
 				</view>

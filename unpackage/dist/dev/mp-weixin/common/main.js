@@ -697,7 +697,7 @@ try {
       return __webpack_require__.e(/*! import() | node-modules/cc-ui-uni-app/components/cc-popup/cc-popup */ "node-modules/cc-ui-uni-app/components/cc-popup/cc-popup").then(__webpack_require__.bind(null, /*! cc-ui-uni-app/components/cc-popup/cc-popup.vue */ 495))
     },
     ccArea: function() {
-      return Promise.all(/*! import() | node-modules/cc-ui-uni-app/components/cc-area/cc-area */[__webpack_require__.e("common/vendor"), __webpack_require__.e("node-modules/cc-ui-uni-app/components/cc-area/cc-area")]).then(__webpack_require__.bind(null, /*! cc-ui-uni-app/components/cc-area/cc-area.vue */ 857))
+      return Promise.all(/*! import() | node-modules/cc-ui-uni-app/components/cc-area/cc-area */[__webpack_require__.e("common/vendor"), __webpack_require__.e("node-modules/cc-ui-uni-app/components/cc-area/cc-area")]).then(__webpack_require__.bind(null, /*! cc-ui-uni-app/components/cc-area/cc-area.vue */ 863))
     }
   }
 } catch (e) {

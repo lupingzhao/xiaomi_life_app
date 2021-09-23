@@ -259,9 +259,8 @@ myModeule.mapState,myActions = myModeule.mapActions;var _default =
   onLoad: function onLoad(e) {
     this.pos = JSON.parse(e.pos);
     this.info = JSON.parse(e.info);
-
-
     // 创建地图
+
 
 
 
@@ -287,10 +286,6 @@ myModeule.mapState,myActions = myModeule.mapActions;var _default =
         bgColor: '#fff',
         padding: 6,
         textAlign: 'center' } }];
-
-
-
-
 
 
 
